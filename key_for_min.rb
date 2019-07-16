@@ -9,7 +9,8 @@ def key_for_min_value(name_hash)
     if min > value
       min == value
     else
-      
+      name_hash.delete(key)
+    end
     
     binding.pry
     

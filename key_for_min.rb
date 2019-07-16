@@ -14,6 +14,6 @@ def key_for_min_value(name_hash)
     # binding.pry
     
   end
-  min[:item]
+  min[]
   # binding.pry
 end

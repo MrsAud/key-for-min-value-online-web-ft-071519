@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       name_hash.delete(item)
     end
     
-    binding.pry
+    # binding.pry
     
   end
   

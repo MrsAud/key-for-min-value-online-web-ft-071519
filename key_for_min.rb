@@ -4,14 +4,13 @@ require 'pry'
 # hash = { :item => value }
 
 def key_for_min_value(name_hash)
+  min = {}
   name_hash.each do |item, value|
-    min = value
-    if min >= value
-      min == value
-    else
-      name_hash.delete(item)
+    min[:item] = value
+    if min[:item][value] >= value
+      min[:item] = value
     end
-    item
+    min[:item]
     # binding.pry
     
   end

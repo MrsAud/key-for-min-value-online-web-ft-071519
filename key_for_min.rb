@@ -4,7 +4,7 @@ require 'pry'
 # hash = { :item => value }
 
 def key_for_min_value(name_hash)
-  name_hash.each do |item, value|
+  name_hash.collect do |item, value|
     min = value
     if min >= value
       min == value

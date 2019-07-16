@@ -5,7 +5,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   name_hash.each do |item, value|
-    min = item[value]
+    min = value
     binding.pry
   end
   
